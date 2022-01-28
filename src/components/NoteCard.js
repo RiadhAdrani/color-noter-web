@@ -11,7 +11,7 @@ export default ({ data }) => {
                     text: data.content.substr(0, 150) + "...",
                     styleSheet: {
                          className: "note-card-text",
-                         normal: { padding: "5px" },
+                         normal: { padding: "5px", wordBreak: "break-all" },
                     },
                });
           } else {
